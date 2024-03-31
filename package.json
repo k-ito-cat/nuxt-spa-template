@@ -11,9 +11,13 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "@types/lodash": "^4.17.0",
     "nuxt": "^3.11.1",
+    "vee-validate": "^4.12.6",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "yup": "^1.4.0",
+    "yup-locale-ja": "^1.0.0"
   },
   "devDependencies": {
     "vitest": "^1.4.0"
