@@ -1,0 +1,29 @@
+{
+  "plugins": [
+    "prettier-plugin-tailwindcss",
+    "prettier-plugin-organize-attributes"
+  ],
+  "trailingComma": "all",
+  "semi": true,
+  "singleQuote": true,
+  "attributeSort": "DESC",
+  "attributeGroups": [
+    "^v-for$",
+    "^v-if$",
+    "^:ref$",
+    "^:key$",
+    "^#",
+    "^v-model$",
+    "^id$",
+    "^href$",
+    "^src$",
+    "^name$",
+    "^alt$",
+    "^width$",
+    "^height$",
+    "$DEFAULT",
+    "^class$",
+    "^:",
+    "^@"
+  ]
+}
