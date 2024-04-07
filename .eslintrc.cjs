@@ -24,5 +24,11 @@ module.exports = {
     ],
     'vue/max-attributes-per-line': 0,
     'vue/valid-template-root': 'off',
+    'no-restricted-imports': [
+      'error',
+      {
+        patterns: ['@/*'],
+      },
+    ],
   },
 };
