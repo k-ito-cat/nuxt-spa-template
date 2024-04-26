@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   ssr: false,
   srcDir: 'src/',
   devtools: { enabled: true },
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/stylelint-module'],
   runtimeConfig: {
     public: {
       mock: false,
