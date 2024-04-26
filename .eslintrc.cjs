@@ -30,5 +30,6 @@ module.exports = {
         patterns: ['@/*'],
       },
     ],
+    'vue/singleline-html-element-content-newline': ['off'],
   },
 };
