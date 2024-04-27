@@ -1,0 +1,4 @@
+#!/bin/bash
+npm run format || true
+npm run lint
+npm run lint:fix
