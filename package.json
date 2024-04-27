@@ -10,8 +10,10 @@
     "generate-api": "orval --config ./src/api/orval.config.ts",
     "lint": "eslint --ext .vue,.ts,.js,.mjs .",
     "lint:fix": "eslint . --fix",
-    "postinstall": "nuxt prepare",
-    "test": "vitest --ui --coverage.enabled=true",
+    "format": "prettier --write ./src/{components,composables,features,layouts,pages,plugins}/*.{vue,ts}",
+    "test": "vitest run --coverage",
+    "test:ui": "vitest --ui --coverage.enabled=true",
+    "postinstall": "nuxt prepare && husky install",
     "prepare": "husky"
   },
   "dependencies": {
@@ -44,6 +46,7 @@
     "orval": "^6.27.1",
     "prettier": "^3.2.5",
     "prettier-plugin-organize-attributes": "^1.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.14",
     "stylelint": "^16.4.0",
     "vitest": "^1.4.0"
   },
