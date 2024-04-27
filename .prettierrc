@@ -1,6 +1,5 @@
 {
   "plugins": [
-    "prettier-plugin-tailwindcss",
     "prettier-plugin-organize-attributes"
   ],
   "trailingComma": "all",
