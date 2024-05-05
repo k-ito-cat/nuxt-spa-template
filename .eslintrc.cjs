@@ -11,17 +11,7 @@ module.exports = {
     'no-unused-vars': 'error',
     'unused-imports/no-unused-imports': 'error',
     'vue/multi-word-component-names': 'off',
-    'vue/html-self-closing': [
-      'error',
-      {
-        html: {
-          void: 'always',
-          normal: 'always',
-          component: 'always',
-        },
-        svg: 'always',
-      },
-    ],
+    'vue/html-self-closing': 'off',
     'vue/max-attributes-per-line': 0,
     'vue/valid-template-root': 'off',
     'no-restricted-imports': [
