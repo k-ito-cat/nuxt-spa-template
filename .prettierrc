@@ -1,6 +1,7 @@
 {
   "plugins": [
-    "prettier-plugin-organize-attributes"
+    "prettier-plugin-organize-attributes",
+    "plugin:prettier/recommended"
   ],
   "trailingComma": "all",
   "semi": true,
